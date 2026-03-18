@@ -80,5 +80,12 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.3"
+  },
+
+  "eslintConfig": {
+  "extends": ["react-app"],
+  "rules": {
+    "no-unused-vars": "off"
   }
+}
 }

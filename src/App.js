@@ -1,8 +1,7 @@
-  import logo from "./logo.svg";
-import "./App.css";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import Mainroute from "./routes/Mainroute";
+  import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { useState } from "react";
+import "./App.css";
+import Mainroute from "./routes/Mainroute";
 
 
 function App() {
