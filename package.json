@@ -61,11 +61,14 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+  "extends": [
+    "react-app",
+    "react-app/jest"
+  ],
+  "rules": {
+    "no-unused-vars": "off"
+  }
+},
   "browserslist": {
     "production": [
       ">0.2%",
@@ -80,12 +83,7 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.3"
-  },
-
-  "eslintConfig": {
-  "extends": ["react-app"],
-  "rules": {
-    "no-unused-vars": "off"
   }
-}
+
+  
 }
