@@ -27,7 +27,7 @@ const AddQuestion = () => {
             .then((res) => {
                 if (res.data) {
                     console.log(res.data);
-                    const predata = res.data?.result.find((el) => el._id == id);
+                    const predata = res.data?.result.find((el) => el._id === id);
                     console.log(predata);
                     const { _id, __v, createdOn, ...filteredPredata } = predata;
 

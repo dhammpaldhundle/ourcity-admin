@@ -97,15 +97,15 @@ const Carousel = () => {
     <div className="h-screen bg-black text-gray-200 font-poppins text-sm">
       <header className="w-[1140px] max-w-[80%] h-12 mx-auto flex items-center relative z-[100]">
         <nav className="flex gap-10">
-          <a href="#" className="text-gray-200">
+          <button type="button" className="text-gray-200">
             Home
-          </a>
-          <a href="#" className="text-gray-200">
+          </button>
+          <button type="button" className="text-gray-200">
             Contacts
-          </a>
-          <a href="#" className="text-gray-200">
+          </button>
+          <button type="button" className="text-gray-200">
             Info
-          </a>
+          </button>
         </nav>
       </header>
 

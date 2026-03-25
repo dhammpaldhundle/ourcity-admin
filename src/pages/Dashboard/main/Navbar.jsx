@@ -53,19 +53,19 @@ const Navbar = () => {
 
   const stHinmdi = () => {
     //  console.log(i18n.language)
-    if (i18n.language == "en") {
+    if (i18n.language === "en") {
       i18n.changeLanguage("hi");
-    } else if (i18n.language == "hi") {
+    } else if (i18n.language === "hi") {
       i18n.changeLanguage("en");
     }
   };
 
   const ChageLang = (lang) => {
-    if (lang == "en") {
+    if (lang === "en") {
       i18n.changeLanguage("en");
       setShowModal(false);
       // setMobileOpen(false);
-    } else if (lang == "hi") {
+    } else if (lang === "hi") {
       i18n.changeLanguage("hi");
       setShowModal(false);
       // setMobileOpen(false);
